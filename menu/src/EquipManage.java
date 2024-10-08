@@ -30,7 +30,7 @@ public class EquipManage {
         System.out.println("Enter the serial number");
         String serialNum = input.nextLine();
         for (Map<String, String> equipment : equipmentTable) {
-            if (equipment.get("serialNumber").equals(serialNum)) { // Compare with serial number
+            if (equipment.get("serialNumber").equals(serialNum)) { 
                 return equipment;
             }
         }
